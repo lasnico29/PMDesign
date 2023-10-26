@@ -1,2 +1,0 @@
-# PMDesignAngular
-Front end Angular
