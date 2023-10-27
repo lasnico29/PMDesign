@@ -1,17 +1,17 @@
-<div>
+<div style="background-color: #555;">
     <hr>
     <h1 >Productos</h1>
     <div>
         <h2>Titulo de la categoria</h2>
 
-        <mat-grid-list cols =  "3" rowHeight="2:1">
+        <mat-grid-list cols =  "3" rowHeight="1:1">
 
             <div *ngFor="let prod of productos">
-                <mat-grid-tile>
-                    <mat-card>
+                <mat-grid-tile class = "mat-tile">
+                    <mat-card class = "mat-card">
                         <mat-card-header>{{prod.title}}</mat-card-header>
                         <mat-card-subtitle>Subtitulo</mat-card-subtitle>
-                        <img mat-card-image src = {{prod.imageUrl}} alt = "ImagenProducto" height= 100>
+                        <img mat-card-image src = {{prod.imageUrl}} alt = "ImagenProducto" width="500" height="500">
                         <mat-card-content>
                             <p>{{prod.description}}</p>
                         </mat-card-content>
