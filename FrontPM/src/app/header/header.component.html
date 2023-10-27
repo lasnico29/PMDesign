@@ -1,30 +1,28 @@
 <header class="header">
-    <div >
-        <nav>
-            <a><img src="../../assets/Images/IconoPagina.png" alt="PMIcono" width="250" ngOptimizedImage></a>
-
-            <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Nosotros</a></li>
-                <li><a href="#">Proyectos</a></li>
-                <li><a href="#">Contacto</a></li>
-                <li><a href="#">Productos</a></li>
-                <li><a href="#">Servicios</a></li>
-                <li><a href="#">Chat-Bot</a></li>
-            </ul>
-        </nav>
-
-        <div class = "header_buttons">
-            <button mat-flat-button color="primary">Iniciar Sesion</button>
-            <button mat-stroked-button color="primary">Registrarse</button>
+    <mat-toolbar color="primary">
+        <mat-toolbar-row>
+            <span><a routerLink="/landingpage"><img src="../../assets/Images/IconoPagina.png" alt="PMIcono" width="250" ngOptimizedImage></a></span>
+            <button mat-flat-button color="accent">Iniciar Sesion</button>
+            <button mat-stroked-button color="accent">Registrarse</button>
             
-            <button mat-fab color="warn">
-                <mat-icon>home</mat-icon>
+            <button mat-mini-fab color="warn">
+                <mat-icon>person</mat-icon>
             </button>
 
-            <button mat-fab color="warn" >
+            <button mat-mini-fab color="warn" >
                 <mat-icon>shopping_cart</mat-icon>
             </button>
-        </div>
-    </div>
+        </mat-toolbar-row>
+        
+        <mat-toolbar-row>
+            <a mat-button routerLink="/landingpage">Inicio</a>
+            <a mat-button>Nosotros</a>
+            <a mat-button>Proyectos</a>
+            <a mat-button>Contacto</a>
+            <a mat-button routerLink="/productos">Productos</a>
+            <a mat-button>Servicios</a>
+            <a mat-button>Chat-Bot</a>
+        </mat-toolbar-row>
+
+    </mat-toolbar>
 </header>
