@@ -7,9 +7,12 @@ import { HttpClient } from '@angular/common/http';
 export class BackConectionService {
 
     private apiURL = 'aquivaellink';
-  constructor() { }
+  constructor(private http: HttpClient) { }
 
 
   //Metodos
-  
+  get productos()
+  {
+    return this.http.get(this.apiURL);
+  }
 }
