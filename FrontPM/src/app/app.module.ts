@@ -8,6 +8,11 @@ import { MaterialModule } from './material/material.module';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { CotizacionComponent } from './cotizacion/cotizacion.component';
+import { ServiciosComponent } from './servicios/servicios.component';
+import { InicioSesionComponent } from './inicio-sesion/inicio-sesion.component';
+import { RegistrarseComponent } from './registrarse/registrarse.component';
+import { UsuarioComponent } from './usuario/usuario.component';
+import { CarritoComponent } from './carrito/carrito.component';
 
 
 @NgModule({
@@ -16,7 +21,12 @@ import { CotizacionComponent } from './cotizacion/cotizacion.component';
     HeaderComponent,
     FooterComponent,
     routingComponent,
-    CotizacionComponent
+    CotizacionComponent,
+    ServiciosComponent,
+    InicioSesionComponent,
+    RegistrarseComponent,
+    UsuarioComponent,
+    CarritoComponent
   ],
   imports: [
     BrowserModule,
