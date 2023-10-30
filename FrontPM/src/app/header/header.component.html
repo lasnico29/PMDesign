@@ -1,26 +1,26 @@
 <header>
     <mat-toolbar color="primary">
         <mat-toolbar-row >
-            <span><a routerLink="/landingpage"><img src="../../assets/Images/IconoPagina.png" alt="PMIcono" width="200" ngOptimizedImage></a></span>
+            <span><a routerLink=""><img src="../../assets/Images/IconoPagina.png" alt="PMIcono" width="200" ngOptimizedImage></a></span>
             
             <div>
                 <button mat-flat-button routerLink="/inicioSesion" color="accent">Iniciar Sesion</button>
                 <button mat-stroked-button routerLink="/registrarse" color="accent">Registrarse</button>
-                <button mat-mini-fab color="warn"><mat-icon>person</mat-icon></button>
-                <button mat-mini-fab color="warn" ><mat-icon>shopping_cart</mat-icon></button>
+                <button mat-mini-fab routerLink="/usuario" color = "warn"><mat-icon>person</mat-icon></button>
+                <button mat-mini-fab routerLink="/carrito" color="warn" ><mat-icon>shopping_cart</mat-icon></button>
             </div>
             
 
         </mat-toolbar-row>
         
         <mat-toolbar-row>
-            <a mat-button routerLink="/landingpage">Inicio</a>
+            <a mat-button routerLink="">Inicio</a>
             <a mat-button>Nosotros</a>
             <a mat-button>Proyectos</a>
             <a mat-button>Contacto</a>
             <a mat-button routerLink="/productos">Productos</a>
-            <a mat-button>Servicios</a>
-            <a mat-button>Chat-Bot</a>
+            <a mat-button routerLink="/servicios">Servicios</a>
+           
         </mat-toolbar-row>
 
     </mat-toolbar>

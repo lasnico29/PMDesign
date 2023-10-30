@@ -9,11 +9,11 @@
             <div *ngFor="let prod of productos">
                 <mat-grid-tile class = "mat-tile">
                     <mat-card class = "mat-card">
-                        <mat-card-header>{{prod.title}}</mat-card-header>
+                        <mat-card-header>{{prod.name}}</mat-card-header>
                         <mat-card-subtitle>Subtitulo</mat-card-subtitle>
-                        <img mat-card-image src = {{prod.imageUrl}} alt = "ImagenProducto" width="500" height="500">
+                        <img mat-card-image src = {{2}} alt = "ImagenProducto" width="500" height="500">
                         <mat-card-content>
-                            <p>{{prod.description}}</p>
+                            <p>{{prod.agency}}</p>
                         </mat-card-content>
                         <mat-card-actions>
                             <button mat-flat-button color="warn">

@@ -6,12 +6,12 @@ import { HttpClient } from '@angular/common/http';
 })
 export class BackConectionService {
 
-    private apiURL = 'aquivaellink';
+    private apiURL = 'https://api.spacexdata.com/v4/rockets';
   constructor(private http: HttpClient) { }
 
 
   //Metodos
-  get productos()
+  get GetProductos()
   {
     return this.http.get(this.apiURL);
   }

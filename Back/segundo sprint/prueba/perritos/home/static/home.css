@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+
+}
+
+header {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ nav ul li {
+    color: #bd1c1c;
+    display: inline;
+    margin-right: 20px;
+}
+
+ nav ul li a {
+    text-decoration: none;
+}
+
+.contenido {
+    display: flex;
+    #justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo img {
+    max-width: 400px;
+}
+
+.bienvenida {
+    text-align: right;
+}
+
+.biografia, .imagen-fondo {
+    padding: 20px;
+    text-align: center;
+}
+
+.biografia h2, .biografia p {
+    text-align: center;
+}
+
+.imagen-fondo img {
+    width: 100%;
+}
+
+footer {
+    colo: #000000;
+    text-align: center;
+    padding: 100px;
+}

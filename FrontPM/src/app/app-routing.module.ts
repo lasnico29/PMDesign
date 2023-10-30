@@ -5,14 +5,20 @@ import { ProductosComponent } from './productos/productos.component';
 import { CotizacionComponent } from './cotizacion/cotizacion.component';
 import { InicioSesionComponent } from './inicio-sesion/inicio-sesion.component';
 import { RegistrarseComponent } from './registrarse/registrarse.component';
+import { UsuarioComponent } from './usuario/usuario.component';
+import { CarritoComponent } from './carrito/carrito.component';
+import { ServiciosComponent } from './servicios/servicios.component';
 
 
 const routes: Routes = [
-  {path: 'landingpage', component: LandingpageComponent},
+  {path: '', component: LandingpageComponent},
   {path: 'productos', component: ProductosComponent },
   {path: 'cotizacion', component: CotizacionComponent },
   {path: 'inicioSesion', component: InicioSesionComponent},
-  {path : 'registrarse', component: RegistrarseComponent}
+  {path : 'registrarse', component: RegistrarseComponent},
+  {path: 'usuario', component: UsuarioComponent},
+  {path: 'carrito', component: CarritoComponent},
+  {path: 'servicios', component: ServiciosComponent}
 ];
 
 @NgModule({
@@ -25,5 +31,8 @@ export const routingComponent = [
   ProductosComponent,
   CotizacionComponent,
   InicioSesionComponent,
-  RegistrarseComponent
+  RegistrarseComponent,
+  UsuarioComponent,
+  CarritoComponent,
+  ServiciosComponent
 ]
